@@ -1,6 +1,6 @@
 body{
 	margin:0 auto; 
-	background:url(athlet.jpg); 
+	background:url(castle.jpg); 
 	max-width:1200px;
 	max-height: 600px
 	
@@ -74,4 +74,9 @@ h2{
 	width: 200px;
 	font-size: 25px;
 
+}
+
+#history
+{
+	background-color: aliceblue;
 }
