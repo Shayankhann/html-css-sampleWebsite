@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="mystyle.css"/>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+			<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div id="weblogo">
+			<img src="logo.png" width="120" height="100px">
+		</div>
+	
+		<h1>Welcome to LifeSport Store!!</h1>
+    	<h2 style="color: blue;">This is the purchase online page</h2>
+
+        <div>
+
+         <div id="links-div">
+             <ul class="nav nav-tabs">
+                 <li class="hbar1"><a class="category" href = "index.html">Home</a></li>
+                 <li class="hbar1"><a class="category" href = "about.html">About</a></li>
+                 <li class="hbar1"><a class="category" href = "myacct.html">My Account</a></li>
+                 <li class="hbar1"><a class="category" href = "purchase.html">Purchase Online</a></li>
+             </ul>
+        </div>
+		
+		<form action="complete.html" method="get" class="form-group col-xs-2 form.inline">
+            
+            <br><font size="4">Full Name:</font> <input type="text" name="fullname" class="form-control" required />
+			
+            <br><font size="4">E-Mail:</font><input type="text" name="email" class="form-control" required />
+			
+			<br/><label for="item"><font size="4">Item to be purchased:</font></label>
+			<br><input type="text" id="item" class="form-control">
+			
+			<br/><label for="address"><font size="4">Address:</font></label>
+			<br><input type="textarea" id="address" class="form-control">
+			
+            <br/><label style="color: white;"><font size="4">Payment Method:</font></label>
+            <br><input type="radio" name="payment" value="credit" checked required/><font size="4" style="color: white;"> Credit</font>
+            <br><input type="radio" name="payment" value="debit" required/><font size="4" style="color: white;"> Debit</font>
+
+            <br><input type="submit" value="Submit" class="btn class="form-control"" />
+        </form>
+		
+	</body>
+</html>
