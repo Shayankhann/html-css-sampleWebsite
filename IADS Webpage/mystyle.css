@@ -63,7 +63,7 @@ h2{
 }
 
 #weblogo{
-	widdth: 80px;
+	width: 80px;
 	height: 100px
 }
 .attractions a{
@@ -76,7 +76,3 @@ h2{
 
 }
 
-#history 
-{
-	color: brown !important;
-}
