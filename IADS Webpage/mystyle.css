@@ -14,7 +14,7 @@ a{
 }
 
 #links-div{
-	background-color: #9ec4ec;
+	background-color: #6c6cdd;
     width: 800px;
     position: i;
     top: -130px;
@@ -30,6 +30,7 @@ a{
 
 .nav-tabs{
 	font-size: 20px
+      background-color: blue;
 }
 
 #products{
@@ -44,6 +45,8 @@ a{
 }
 h2{
 	color: blue;
+h1{
+      color: white;
 }
 
 #spec{
